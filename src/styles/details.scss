@@ -1,19 +1,21 @@
 .details {
-  &__name {
-    display: block;
-
-    font-size: 20px;
-    line-height: 23px;
-    color: #2f4f4f;
-  }
-
   &__extra {
     display: block;
-    padding-top: 9px;
-    padding-bottom: 16px;
+    position: absolute;
+    width: 100%;
+
+    padding-bottom: $extra-padding-bottom;
+    padding-top: $extra-padding-top;
+
+    opacity: 0;
+    pointer-events: none;
+
+    left: 0;
+    right: 0;
+    bottom: $extra-bottom-position;
 
     font-size: 18px;
-    line-height: 20.7px;
+    line-height: $extra-details-height;
   }
 
   &__sport {
