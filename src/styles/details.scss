@@ -1,0 +1,21 @@
+.details {
+  &__name {
+    display: block;
+
+    font-size: 20px;
+    line-height: 23px;
+    color: #2f4f4f;
+  }
+
+  &__extra {
+    display: block;
+    padding-top: 9px;
+    padding-bottom: 16px;
+
+    font-size: 18px;
+    line-height: 20.7px;
+  }
+
+  &__sport {
+  }
+}
